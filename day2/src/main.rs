@@ -1,4 +1,4 @@
-use std::{fs, iter, ops::Sub, usize};
+use std::{fs, ops::Sub, usize};
 
 fn main() {
     let input_string = fs::read_to_string("jdd/input.txt").expect("Impossible de lire le JDD");
